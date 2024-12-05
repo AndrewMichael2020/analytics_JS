@@ -17,8 +17,9 @@ function submitFeedback() {
     const designation = document.getElementById('designation').value;
     const productType = document.getElementById('productType').value;
     const feedback = document.getElementById('feedbackText').value;
+    const exp = document.getElementById('userExperience').value;
 
-    if (!username || !email || !feedback) {
+    if (!username || !email || !feedback || !exp) {
         alert('Please fill in all required fields!');
         return;
     }
@@ -32,5 +33,6 @@ function submitFeedback() {
     document.getElementById('userDesignation').innerHTML = designation;
     document.getElementById('userProductChoice').innerHTML = productType;
     document.getElementById('userFeedback').innerHTML = feedback;
+    document.getElementById('userExperienceOutput').innerHTML = exp;
     document.getElementById('userInfo').style.display = 'block';
 }
