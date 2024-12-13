@@ -1,0 +1,65 @@
+<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+        <title>Yahoo Finance</title>
+        <link>https://finance.yahoo.com/</link>
+        <description>
+            At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources,
+            international market data, social interaction and mortgage rates that help you manage your financial life.
+        </description>
+        <language>en-US</language>
+        <copyright>Copyright (c) 2024 Yahoo! Inc. All rights reserved</copyright>
+        <pubDate>Thu, 12 Dec 2024 20:45:05 -0500</pubDate>
+        <ttl>5</ttl>
+        <image>
+            <title>Yahoo Finance</title>
+            <link>https://finance.yahoo.com/</link>
+            <url>https://s.yimg.com/zz/nn/lib/metro/g/my/yahoo_en-US_f_p_190x45_2x.png</url>
+        </image>
+        <item>
+            <title>
+                Are You In The Top 3% Of Retirees? Here's The Shockingly Low Amount You Need Saved To Rank Among The Richest
+            </title>
+            <link>https://finance.yahoo.com/news/top-3-retirees-heres-shockingly-203017202.html</link>
+            <pubDate>2024-12-11T20:30:17Z</pubDate>
+            <source url="http://www.benzinga.com/">Benzinga</source>
+            <guid isPermaLink="false">top-3-retirees-heres-shockingly-203017202.html</guid>
+            <media:content 
+                height="86" 
+                url="https://media.zenfs.com/en/Benzinga/926685a24bf36c8af16f67ad58501c8a" 
+                width="130" 
+            />
+            <media:credit role="publishing company"/>
+        </item>
+        <item>
+            <title>
+                Apple went public 44 years ago—what your $10,000 investment would be worth today
+            </title>
+            <link>https://finance.yahoo.com/news/apple-went-public-44-years-180110896.html</link>
+            <pubDate>2024-12-12T18:01:10Z</pubDate>
+            <source url="http://fortune.com/">Fortune</source>
+            <guid isPermaLink="false">apple-went-public-44-years-180110896.html</guid>
+            <media:content 
+                height="86" 
+                url="https://media.zenfs.com/en/fortune_175/84628b454b74b33c5165e905e775a364" 
+                width="130" 
+            />
+            <media:credit role="publishing company"/>
+        </item>
+        <item>
+            <title>
+                Is the Stock Market Going to Crash Under President-Elect Donald Trump? Here's What History Has to Say.
+            </title>
+            <link>https://finance.yahoo.com/news/stock-market-going-crash-under-095100368.html</link>
+            <pubDate>2024-12-12T09:51:00Z</pubDate>
+            <source url="http://www.fool.com/">Motley Fool</source>
+            <guid isPermaLink="false">stock-market-going-crash-under-095100368.html</guid>
+            <media:content 
+                height="86" 
+                url="https://media.zenfs.com/en/motleyfool.com/7fcca3f483f5835a4a8e6df85b8271c5" 
+                width="130" 
+            />
+            <media:credit role="publishing company"/>
+        </item>
+        <!-- Repeat for additional items -->
+    </channel>
+</rss>
