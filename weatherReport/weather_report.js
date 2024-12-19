@@ -1,8 +1,10 @@
+require('dotenv').config();
+
 function showweatherDetails(event) {
     event.preventDefault();
   
     const cityInput = document.getElementById('city').value.trim();
-    const apiKey = '50d4c354f03b3231a662126ce71ff02c'; // Replace with your actual API key
+    const apiKey = process.env.WEATHER_API_KEY; // Replace with your actual API key
   
     // Validate input format (City or City, State/Province)
     const cityRegex = /^[a-zA-Z\s]+(?:,\s?[a-zA-Z\s]+)?$/;
